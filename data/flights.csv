@@ -1,0 +1,6 @@
+routeFrom,routeTo,flight,airline,departureTime,arrivalTime,price
+Philadelphia,Rome,43,Virgin America,1:43 AM,9:45 PM,472.56
+Philadelphia,Rome,234,United Airlines,7:43 AM,10:45 PM,432.98
+Philadelphia,Rome,9696,Aer Lingus,5:27 AM,8:22 PM,200.98
+Philadelphia,Rome,12,Virgin America,11:23 AM,1:45 PM,765.32
+Philadelphia,Rome,4346,Lufthansa,1:45 AM,8:34 PM,233.98

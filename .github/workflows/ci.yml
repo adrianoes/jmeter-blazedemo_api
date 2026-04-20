@@ -1,0 +1,98 @@
+name: jmeter-load-and-spike
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  jmeter-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Download JMeter
+        run: |
+          wget https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.6.3.tgz
+          tar -xzf apache-jmeter-5.6.3.tgz
+
+      - name: Download Plugins Manager
+        run: |
+          cd apache-jmeter-5.6.3/lib/ext
+          wget https://jmeter-plugins.org/get/ -O jmeter-plugins-manager.jar
+
+      - name: Download cmdrunner
+        run: |
+          cd apache-jmeter-5.6.3/lib
+          wget https://repo1.maven.org/maven2/kg/apc/cmdrunner/2.3/cmdrunner-2.3.jar
+
+      - name: Install Plugins Manager CMD
+        run: |
+          java -cp apache-jmeter-5.6.3/lib/ext/jmeter-plugins-manager.jar \
+            org.jmeterplugins.repository.PluginManagerCMDInstaller
+
+      - name: Install Ultimate Thread Group plugin
+        run: |
+          apache-jmeter-5.6.3/bin/PluginsManagerCMD.sh install jpgc-casutg
+
+      - name: Debug project structure
+        run: |
+          echo "===== PROJECT FILES ====="
+          ls -R
+
+      - name: Validate datasets
+        run: |
+          if [ ! -f data/departure_cities.csv ]; then echo "departure_cities.csv missing"; exit 1; fi
+          if [ ! -f data/destination_cities.csv ]; then echo "destination_cities.csv missing"; exit 1; fi
+          if [ ! -f data/flights.csv ]; then echo "flights.csv missing"; exit 1; fi
+          if [ ! -f data/passengers_100.csv ]; then echo "passengers_100.csv missing"; exit 1; fi
+
+      - name: Clean report dirs
+        run: |
+          rm -rf reports || true
+          mkdir -p reports/load
+          mkdir -p reports/spike
+
+      - name: Run JMeter Load Test
+        run: |
+          apache-jmeter-5.6.3/bin/jmeter -n \
+            -t apache-jmeter-5.6.3/bin/load.jmx \
+            -l reports/load/resultado_load.jtl \
+            -e -o reports/load/html \
+            -j jmeter-load.log
+
+      - name: Run JMeter Spike Test
+        run: |
+          apache-jmeter-5.6.3/bin/jmeter -n \
+            -t apache-jmeter-5.6.3/bin/spike.jmx \
+            -l reports/spike/resultado_spike.jtl \
+            -e -o reports/spike/html \
+            -j jmeter-spike.log
+
+      - name: Validate results
+        run: |
+          if [ $(wc -l < reports/load/resultado_load.jtl) -le 1 ]; then
+            echo "Load test did not execute requests!"
+            exit 1
+          fi
+          if [ $(wc -l < reports/spike/resultado_spike.jtl) -le 1 ]; then
+            echo "Spike test did not execute requests!"
+            exit 1
+          fi
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: jmeter-test-results
+          path: |
+            reports/
+            jmeter-load.log
+            jmeter-spike.log

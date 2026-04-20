@@ -1,0 +1,101 @@
+firstName,address,city,state,zipCode,cardType,creditCardNumber,creditCardMonth,creditCardYear,nameOnCard
+Ana Silva,Rua das Flores 101,Sao Paulo,SP,01001-000,visa,4111111111111111,01,2028,A Silva
+Bruno Oliveira,Avenida Paulista 245,Campinas,SP,13010-010,amex,378282246310005,02,2029,Bruno Oliveira
+Carla Souza,Rua Bahia 88,Belo Horizonte,MG,30130-011,dinersclub,30569309025904,03,2030,C Souza
+Diego Lima,Rua das Acacias 54,Rio de Janeiro,RJ,22031-040,visa,4111111111111111,04,2031,Diego Lima
+Erica Santos,Avenida Brasil 770,Curitiba,PR,80010-100,visa,4111111111111111,05,2032,E Santos
+Felipe Costa,Rua XV 120,Porto Alegre,RS,90010-120,amex,378282246310005,06,2033,F Costa
+Gabriela Almeida,Rua Boa Vista 11,Recife,PE,50030-020,dinersclub,30569309025904,07,2034,G Almeida
+Henrique Rocha,Avenida Atlantica 900,Rio de Janeiro,RJ,22021-001,visa,4111111111111111,08,2035,H Rocha
+Isabela Fernandes,Rua do Comercio 15,Santos,SP,11010-021,amex,378282246310005,09,2036,Isabela Fernandes
+Joao Pereira,Rua Alagoas 41,Belo Horizonte,MG,30130-160,visa,4111111111111111,10,2027,J Pereira
+Karen Martins,Rua do Sol 77,Fortaleza,CE,60020-050,dinersclub,30569309025904,11,2028,K Martins
+Lucas Barros,Avenida Central 455,Goiania,GO,74003-010,visa,4111111111111111,12,2029,Lucas Barros
+Mariana Nunes,Rua das Palmeiras 98,Sao Paulo,SP,04567-000,amex,378282246310005,01,2030,M Nunes
+Nicolas Ribeiro,Rua Santa Clara 130,Rio de Janeiro,RJ,22041-011,visa,4111111111111111,02,2031,N Ribeiro
+Olivia Araujo,Avenida Sete 610,Salvador,BA,40060-002,amex,378282246310005,03,2032,Olivia Araujo
+Paulo Mendes,Rua da Praia 32,Florianopolis,SC,88010-400,dinersclub,30569309025904,04,2033,P Mendes
+Rafaela Teixeira,Rua Aurora 210,Recife,PE,50050-000,visa,4111111111111111,05,2034,R Teixeira
+Sergio Moreira,Avenida Afonso Pena 1500,Belo Horizonte,MG,30130-008,visa,4111111111111111,06,2035,S Moreira
+Talita Carvalho,Rua Sergipe 75,Sao Paulo,SP,01243-001,amex,378282246310005,07,2036,T Carvalho
+Vinicius Gomes,Rua das Laranjeiras 19,Rio de Janeiro,RJ,22240-003,dinersclub,30569309025904,08,2026,V Gomes
+Amanda Freitas,Avenida Faria Lima 900,Sao Paulo,SP,01452-002,visa,4111111111111111,09,2027,Amanda Freitas
+Beatriz Melo,Rua Amazonas 67,Belo Horizonte,MG,30180-001,amex,378282246310005,10,2028,B Melo
+Caio Batista,Rua do Imperador 48,Petropolis,RJ,25620-001,visa,4111111111111111,11,2029,C Batista
+Daniela Castro,Avenida Beira Mar 340,Fortaleza,CE,60165-120,dinersclub,30569309025904,12,2030,D Castro
+Eduardo Farias,Rua dos Andradas 720,Porto Alegre,RS,90020-004,visa,4111111111111111,01,2031,E Farias
+Fernanda Pires,Rua das Camelias 140,Campinas,SP,13024-001,amex,378282246310005,02,2032,F Pires
+Gustavo Viana,Avenida Paulista 1501,Sao Paulo,SP,01311-200,dinersclub,30569309025904,03,2033,G Viana
+Helena Duarte,Rua da Matriz 26,Niteroi,RJ,24020-002,visa,4111111111111111,04,2034,H Duarte
+Igor Neves,Rua Conde de Bonfim 450,Rio de Janeiro,RJ,20520-054,amex,378282246310005,05,2035,I Neves
+Juliana Rezende,Rua Goias 118,Uberlandia,MG,38400-100,visa,4111111111111111,06,2036,J Rezende
+Kleber Tavares,Avenida Ipiranga 1111,Porto Alegre,RS,90160-093,amex,378282246310005,07,2026,K Tavares
+Larissa Fonseca,Rua Padre Chagas 51,Porto Alegre,RS,90570-080,dinersclub,30569309025904,08,2027,L Fonseca
+Mateus Correia,Rua Joao Pessoa 201,Joao Pessoa,PB,58013-140,visa,4111111111111111,09,2028,M Correia
+Natalia Borges,Rua Chile 14,Salvador,BA,40020-000,amex,378282246310005,10,2029,N Borges
+Otavio Peixoto,Avenida Dom Pedro 65,Campinas,SP,13026-000,visa,4111111111111111,11,2030,O Peixoto
+Patricia Siqueira,Rua da Consolacao 890,Sao Paulo,SP,01302-001,dinersclub,30569309025904,12,2031,P Siqueira
+Renan Cunha,Rua Nove de Julho 312,Ribeirao Preto,SP,14015-170,visa,4111111111111111,01,2032,R Cunha
+Sabrina Lopes,Rua Nova 52,Recife,PE,50040-080,amex,378282246310005,02,2033,S Lopes
+Thiago Pimentel,Avenida Tancredo Neves 2300,Salvador,BA,41820-021,visa,4111111111111111,03,2034,T Pimentel
+Ursula Prado,Rua Itabira 44,Belo Horizonte,MG,30150-120,dinersclub,30569309025904,04,2035,U Prado
+Valeria Moraes,Rua da Paz 333,Sao Luis,MA,65010-450,visa,4111111111111111,05,2036,V Moraes
+William Cardoso,Avenida Rio Branco 500,Rio de Janeiro,RJ,20040-002,amex,378282246310005,06,2026,W Cardoso
+Yasmin Peixoto,Rua das Hortensias 71,Gramado,RS,95670-000,dinersclub,30569309025904,07,2027,Y Peixoto
+Zoe Barbosa,Rua Bela Vista 12,Curitiba,PR,80020-310,visa,4111111111111111,08,2028,Z Barbosa
+Alexandre Moura,Avenida Santos Dumont 81,Fortaleza,CE,60150-160,visa,4111111111111111,09,2029,A Moura
+Bianca Ferraz,Rua Visconde de Piraja 600,Rio de Janeiro,RJ,22410-003,amex,378282246310005,10,2030,B Ferraz
+Cesar Toledo,Rua Tiradentes 90,Campinas,SP,13013-020,dinersclub,30569309025904,11,2031,C Toledo
+Debora Coelho,Rua da Misericordia 17,Salvador,BA,40020-200,visa,4111111111111111,12,2032,D Coelho
+Enzo Chaves,Avenida Getulio Vargas 1055,Belo Horizonte,MG,30112-021,amex,378282246310005,01,2033,E Chaves
+Flavia Neri,Rua Joana Angelica 24,Rio de Janeiro,RJ,22420-030,visa,4111111111111111,02,2034,F Neri
+Guilherme Passos,Rua Itapeva 355,Sao Paulo,SP,01332-000,dinersclub,30569309025904,03,2035,G Passos
+Heloisa Ramos,Rua do Principe 89,Joinville,SC,89201-000,visa,4111111111111111,04,2036,H Ramos
+Icaro Mattos,Avenida Borges de Medeiros 700,Porto Alegre,RS,90110-150,amex,378282246310005,05,2026,I Mattos
+Julia Monteiro,Rua Padre Rolim 140,Joao Pessoa,PB,58013-170,visa,4111111111111111,06,2027,J Monteiro
+Kaique Diniz,Rua da Bahia 702,Belo Horizonte,MG,30160-011,dinersclub,30569309025904,07,2028,K Diniz
+Leticia Queiroz,Rua Joaquim Nabuco 56,Recife,PE,52011-000,visa,4111111111111111,08,2029,L Queiroz
+Murilo Aguiar,Rua da Aurora 880,Recife,PE,50050-000,amex,378282246310005,09,2030,M Aguiar
+Nicole Falcao,Rua Almirante Barroso 33,Belem,PA,66010-000,dinersclub,30569309025904,10,2031,N Falcao
+Orlando Braga,Avenida Sete de Setembro 450,Curitiba,PR,80230-010,visa,4111111111111111,11,2032,O Braga
+Priscila Xavier,Rua Tomaz Gonzaga 91,Belo Horizonte,MG,30180-190,amex,378282246310005,12,2033,P Xavier
+Rafael Bastos,Rua Padre Eustaquio 215,Belo Horizonte,MG,30720-100,visa,4111111111111111,01,2034,R Bastos
+Samara Campos,Rua Afonso Celso 310,Salvador,BA,40140-080,dinersclub,30569309025904,02,2035,S Campos
+Tomas Rangel,Rua das Pedras 28,Buzios,RJ,28950-000,visa,4111111111111111,03,2036,T Rangel
+Veronica Leal,Rua Pernambuco 60,Sao Paulo,SP,01234-020,amex,378282246310005,04,2026,V Leal
+Wagner Sales,Rua do Rosario 111,Campinas,SP,13010-001,dinersclub,30569309025904,05,2027,W Sales
+Ximena Rios,Rua General Osorio 77,Rio de Janeiro,RJ,22041-060,visa,4111111111111111,06,2028,X Rios
+Yuri Pacheco,Avenida Silva Jardim 240,Curitiba,PR,80230-000,amex,378282246310005,07,2029,Y Pacheco
+Aline Macedo,Rua Santa Luzia 90,Rio de Janeiro,RJ,20030-040,visa,4111111111111111,08,2030,A Macedo
+Bernardo Luz,Rua Aristides Lobo 32,Sao Paulo,SP,01232-001,dinersclub,30569309025904,09,2031,B Luz
+Camila Porto,Rua das Rosas 145,Campinas,SP,13050-120,visa,4111111111111111,10,2032,C Porto
+Davi Ventura,Avenida Dom Luis 500,Fortaleza,CE,60160-230,amex,378282246310005,11,2033,D Ventura
+Elisa Reis,Rua Santa Rita 210,Juiz de Fora,MG,36010-120,visa,4111111111111111,12,2034,E Reis
+Fabio Guerra,Rua Marechal Floriano 62,Curitiba,PR,80010-130,dinersclub,30569309025904,01,2035,F Guerra
+Giovanna Serra,Rua Frei Caneca 420,Sao Paulo,SP,01307-002,visa,4111111111111111,02,2036,G Serra
+Heitor Rezende,Rua Dona Laura 77,Porto Alegre,RS,90430-090,amex,378282246310005,03,2026,H Rezende
+Ines Maia,Rua do Apolo 35,Recife,PE,50030-220,dinersclub,30569309025904,04,2027,I Maia
+Jonas Vidal,Rua Mariz e Barros 188,Rio de Janeiro,RJ,20270-001,visa,4111111111111111,05,2028,J Vidal
+Karina Assis,Rua Tobias Barreto 49,Aracaju,SE,49010-130,amex,378282246310005,06,2029,K Assis
+Leandro Franca,Avenida do Contorno 1200,Belo Horizonte,MG,30110-008,visa,4111111111111111,07,2030,L Franca
+Marcela Bueno,Rua Piaui 134,Sao Paulo,SP,01241-001,dinersclub,30569309025904,08,2031,M Bueno
+Natan Salgado,Rua do Hospicio 260,Recife,PE,50060-080,visa,4111111111111111,09,2032,N Salgado
+Paola Antunes,Rua Padre Anchieta 510,Curitiba,PR,80730-000,amex,378282246310005,10,2033,P Antunes
+Quenia Motta,Rua Aureliano Coutinho 23,Petropolis,RJ,25685-030,dinersclub,30569309025904,11,2034,Q Motta
+Rodrigo Simoes,Avenida Azenha 820,Porto Alegre,RS,90160-001,visa,4111111111111111,12,2035,R Simoes
+Silvia Porto,Rua das Palmeiras 244,Sao Paulo,SP,04567-120,amex,378282246310005,01,2036,S Porto
+Tiago Lacerda,Rua Padre Miguelinho 112,Natal,RN,59012-020,visa,4111111111111111,02,2026,T Lacerda
+Ubirajara Melo,Rua Sao Jose 310,Recife,PE,50020-010,dinersclub,30569309025904,03,2027,U Melo
+Vanessa Cunha,Rua das Acacias 221,Brasilia,DF,70040-010,visa,4111111111111111,04,2028,V Cunha
+Wellington Paz,Avenida Higienopolis 601,Sao Paulo,SP,01238-001,amex,378282246310005,05,2029,W Paz
+Yago Mota,Rua das Ladeiras 48,Olinda,PE,53020-050,dinersclub,30569309025904,06,2030,Y Mota
+Adriana Lopes,Rua Treze de Maio 79,Sao Paulo,SP,01327-000,visa,4111111111111111,07,2031,A Lopes
+Breno Furtado,Rua Almirante Tamandare 160,Curitiba,PR,80035-160,amex,378282246310005,08,2032,B Furtado
+Cintia Matos,Rua Guaicurus 44,Belo Horizonte,MG,30111-050,visa,4111111111111111,09,2033,C Matos
+Douglas Nobre,Rua Chile 301,Salvador,BA,40020-000,dinersclub,30569309025904,10,2034,D Nobre
+Ester Vidal,Rua Barao do Triunfo 88,Porto Alegre,RS,90130-100,visa,4111111111111111,11,2035,E Vidal
+Fabio Nascimento,Rua Vicente Machado 222,Curitiba,PR,80420-010,amex,378282246310005,12,2036,F Nascimento
+Geovana Prado,Rua do Ouvidor 36,Rio de Janeiro,RJ,20040-030,dinersclub,30569309025904,01,2026,G Prado
+Hugo Leite,Rua Santo Antonio 17,Sao Paulo,SP,01314-000,visa,4111111111111111,02,2027,H Leite
+Irene Castro,Rua das Mangueiras 140,Campinas,SP,13040-089,amex,378282246310005,03,2028,I Castro
+Joaquim Pires,Rua Dois de Julho 500,Salvador,BA,40060-040,visa,4111111111111111,04,2029,J Pires

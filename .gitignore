@@ -1,0 +1,17 @@
+# ignora JMeter inteiro
+/apache-jmeter-5.6.3/
+
+# MAS permite qualquer .jmx dentro dele
+!/apache-jmeter-5.6.3/**/*.jmx
+
+# logs e resultados
+*.jtl
+*.log
+jmeter.log
+resultado_spike.jtl
+
+# relatórios
+/reports/
+
+# arquivos locais
+commiting.txt
